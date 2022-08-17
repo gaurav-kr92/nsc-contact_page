@@ -134,29 +134,6 @@ body, input,textarea, a{
     width: 90%;
 }
 
-/*
-.submit-button{
-    width: 96%;
-    height: 60px;
-    margin: 0px 12px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 700;
-    outline: none;
-    border:none;
-    cursor: pointer;
-    color:#fff;
-    text-align: center;
-    background: #F44770;
-    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
-    transition: .5s;
-}
-.submit-button:hover{
-    background: #31279d;
-}
-  
-*/
-
 .form-wrap form a {
     position: relative;
     display: inline-block;
@@ -303,8 +280,6 @@ body, input,textarea, a{
     font-size: 40px;
     color: #fff;
     text-transform: uppercase;
-    animation: flip 2s infinite;
-    animation-delay: calc(.2s * var(--i))
 }
 
   @keyframes flip {
@@ -314,7 +289,7 @@ body, input,textarea, a{
 }
 
 .lineUp {
-    animation: 2s anim-lineUp ease-out infinite;
+    
     color: #fff;
     font-family: 'Source Serif Pro', serif;
     font-size: 3rem;
@@ -336,3 +311,6 @@ body, input,textarea, a{
       transform: translateY(0%);
     }
 }
+
+
+
